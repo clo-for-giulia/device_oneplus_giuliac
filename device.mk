@@ -45,6 +45,9 @@ PRODUCT_PACKAGES += \
 # OPlus Camera
 $(call inherit-product-if-exists, vendor/oplus/camera/giuliac/opluscamera.mk)
 
+# Fingerprint
+$(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-custom
