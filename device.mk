@@ -45,6 +45,10 @@ PRODUCT_PACKAGES += \
 # OPlus Camera
 $(call inherit-product-if-exists, vendor/oplus/camera/giuliac/opluscamera.mk)
 
+# Face unlock
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml
+
 # Fingerprint
 $(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
 
