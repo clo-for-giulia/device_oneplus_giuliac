@@ -36,15 +36,8 @@ lib_fixups: lib_fixups_user_type = {
         'libdualcam_video_optical_zoom',
         'libhwconfigurationutil',
         'libPanelChaplin',
-        'libpwirisfeature',
-        'libpwirishalwrapper',
         'libtriplecam_optical_zoom_control',
         'libtriplecam_video_optical_zoom',
-        'vendor.pixelworks.hardware.display@1.0',
-        'vendor.pixelworks.hardware.display@1.1',
-        'vendor.pixelworks.hardware.display@1.2',
-        'vendor.pixelworks.hardware.feature@1.0',
-        'vendor.pixelworks.hardware.feature@1.1',
     ): lib_fixup_vendor_suffix,
 }
 
