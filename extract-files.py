@@ -19,9 +19,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'hardware/oplus',
-    'hardware/qcom-caf/sm8650',
     'vendor/oneplus/sm8650-common',
-    'vendor/qcom/opensource/commonsys-intf/display',
 ]
 
 
@@ -99,7 +97,6 @@ module = ExtractUtilsModule(
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
-    add_firmware_proprietary_file=True,
 )
 
 if __name__ == '__main__':
