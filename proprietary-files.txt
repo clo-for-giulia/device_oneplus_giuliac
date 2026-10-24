@@ -1498,7 +1498,6 @@ vendor/etc/display/DPU1020.xml
 vendor/etc/display/DPU10__.xml
 vendor/etc/display/DPU870.xml
 vendor/etc/display/DPU9__.xml
-vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/perf_hint_threshold.xml
 vendor/etc/display/thermallevel_to_fps.xml
 vendor/etc/init/init.qti.graphics.rc
@@ -1529,13 +1528,6 @@ vendor/bin/hw/vendor.qti.hardware.display.color-service
 vendor/bin/ppd
 vendor/etc/init/vendor.qti.hardware.display.color-service.rc
 vendor/lib64/libdisp-aba.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.postproc@1.0.so
 
 # Display firmware
 vendor/firmware/dpAP_full.mbn
